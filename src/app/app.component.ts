@@ -16,4 +16,8 @@ export class AppComponent {
 	private invokeParticles(): void {
 		particlesJS('particles-js', PARTICLES_CONFIG_2, undefined);
 	}
+
+	openUrl(url: string) {
+		window.open(url);
+	}
 }
